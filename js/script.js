@@ -30,7 +30,7 @@ const svg = d3
 function init() {
 
     d3.csv(
-        "./data/weather.csv",
+        "./data/data.json",
         function (d) {
             return {
                 station: d.station,

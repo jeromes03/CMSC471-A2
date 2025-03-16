@@ -76,7 +76,6 @@ function setupSlider() {
     const sliderDiv = d3.select("#slider");
     sliderDiv.html("");
 
-    sliderDiv.append("h4").text("Select Date (All Data Is From 2017):").style("margin-bottom", "5px");
     sliderDiv
         .append("span")
         .attr("id", "current-date")
